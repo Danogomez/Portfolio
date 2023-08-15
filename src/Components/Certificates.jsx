@@ -22,7 +22,7 @@ export const Certificates = () => {
           <CertificateCard
           title="Full Stack Developer"
           image="/certifHenry.PNG"
-          link="https://example.com/certificate1" 
+          link="https://drive.google.com/file/d/1od-ZkV9B0begQauL_quoT0foDYWOnlRb/view?usp=drivesdk" 
           />
         </div>
         <div className='card-skills' >

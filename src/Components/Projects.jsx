@@ -47,7 +47,7 @@ export const Projects = () => {
   <ProjectCard
     title="Api-Videogames"
     subtitle="Single Page Application"
-    description="Fue desarrollado para mi Proyecto Individual en el bootcamp de Desarrollo Fullstack de Henry. Los datos se extraen de la API de **rawg**."
+    description="This was my first project at Henry's Fullstack Development bootcamp. Data is pulled from the **rawg** API."
     image="/pi.PNG"
     technologies={['HTML', 'CSS', "ReactJS", "Redux", "JavaScript", "NodeJS" , "PostgreSQL"]}
     githubLink="https://github.com/Danogomez/DeployPi"
@@ -58,7 +58,7 @@ export const Projects = () => {
     <ProjectCard
       title="Nomad-Locals"
       subtitle="1st Mobile App"
-      description="Fue creado para el Proyecto Final en el bootcamp de Desarrollo Fullstack de Henry, presentado para la Empresa 'Nomad Locals'..."
+      description="It was created for the Final Project at Henry's Fullstack Development bootcamp, presented to the company 'Nomad Locals'."
       image="/nomad.PNG" 
       technologies={['ReactJS','Redux','TailwindCss', 'Javascript','PostgreSQL', 'NodeJs', 'Express', 'Sequelize']}
       githubLink="https://github.com/NomadLocals/servidor"
