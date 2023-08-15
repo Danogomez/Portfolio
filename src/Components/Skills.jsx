@@ -3,7 +3,7 @@ import { Certificates } from './Certificates';
 
 export const Skills = () => {
   return (
-    <div id='skills' className='bg-gray-50 p-20 justify-center relative'>
+    <div id='skills' className='bg-gray-50 text-black p-20 justify-center relative'>
       <h1 className=' mb-5 text-center text-2xl font-semibold pb-4'>My Skills</h1>
       <div className='flex'>
         <div className='card-skills w-1/3 h-auto'>
