@@ -12,7 +12,7 @@ const ProjectCard = ({ title, subtitle, description, image, technologies, github
             <p className="mb-2 text-black">{description}</p>
             { technologies.length > 0 && (
               <div className='flex flex-wrap space-x-2 mt-5'>
-                <h2 className='inline-block text-gray-600 mb-3 text-xl font-bold leading-5'>Technologies:</h2>
+                <h2 className='inline-block text-black mb-3 text-xl font-bold leading-5'>Technologies:</h2>
                 {technologies.map((tech, index) => (
                   <span key={index}>{tech}</span>
                 ))}
