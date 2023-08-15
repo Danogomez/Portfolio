@@ -14,7 +14,7 @@ const ProjectCard = ({ title, subtitle, description, image, technologies, github
               <div className='flex flex-wrap space-x-2 mt-5'>
                 <h2 className='inline-block text-black mb-3 text-xl font-bold leading-5'>Technologies:</h2>
                 {technologies.map((tech, index) => (
-                  <span key={index}>{tech}</span>
+                  <span className='px-2 py-1 mb-2 mr-2 text-xs font-semibold text-gray-700 bg-gray-200 rounded-full' key={index}>{tech}</span>
                 ))}
               </div>
             )}
@@ -49,7 +49,7 @@ export const Projects = () => {
     subtitle="Single Page Application"
     description="Fue desarrollado para mi Proyecto Individual en el bootcamp de Desarrollo Fullstack de Henry. Los datos se extraen de la API de **rawg**."
     image="/pi.PNG"
-    technologies={['HTML', 'CSS', "ReactJS", "Redux", "JavaScript", "NodeJS, PostgreSQL"]}
+    technologies={['HTML', 'CSS', "ReactJS", "Redux", "JavaScript", "NodeJS" , "PostgreSQL"]}
     githubLink="https://github.com/Danogomez/DeployPi"
     demoLink="https://videogamespi-hsdp.onrender.com/"
   />
