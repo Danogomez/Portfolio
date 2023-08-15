@@ -3,7 +3,7 @@ import React from 'react'
 export const Contact = () => {
   return (
     <div id='contact' className="p-8 mb-10 ">
-        <h1 className="text-2xl text-center font-semibold mb-4">Contact Me</h1>
+        <h1 className="text-2xl text-black text-center font-semibold mb-4">Contact Me</h1>
         <div className="grid grid-cols-1 p-6 md:grid-cols-3 gap-4">
 
         <div className='relative flex justify-center items-center p-5 bg-white rounded-sm'>

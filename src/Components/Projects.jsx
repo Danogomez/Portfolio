@@ -7,9 +7,9 @@ const ProjectCard = ({ title, subtitle, description, image, technologies, github
         <div className='flex flex-col overflow-hidden transition-shadow duration-300 rounded'>
           <img className="w-full h-48 object-cover mb-3" src={image} alt={title} />
           <div className='p-5 flex flex-col flex-1'>
-            <h1 className="mb-3 text-2xl font-bold leading-5">{title}</h1>
-            <h3 className="mb-3 text-gray-600 text-xl font-bold leading-5">{subtitle}</h3>
-            <p className="mb-2 text-gray-700">{description}</p>
+            <h1 className="mb-3 text-black text-2xl font-bold leading-5">{title}</h1>
+            <h3 className="mb-3 text-black text-xl font-bold leading-5">{subtitle}</h3>
+            <p className="mb-2 text-black">{description}</p>
             { technologies.length > 0 && (
               <div className='flex flex-wrap space-x-2 mt-5'>
                 <h2 className='inline-block text-gray-600 mb-3 text-xl font-bold leading-5'>Technologies:</h2>
