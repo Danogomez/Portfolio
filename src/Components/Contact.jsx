@@ -23,7 +23,6 @@ export const Contact = () => {
                 </a>
                 <div className='mx-6'>
                     <p>Let's connect</p>
-
                 </div>
         </div>
             
