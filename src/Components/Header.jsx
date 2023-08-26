@@ -7,19 +7,19 @@ export const Header = () => {
       <div id='header' className="flex justify-center my-36  items-center ">
         <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5"> 
           <div className='max-w-xl mb-6'>
-            <h1 className="font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none max-w-lg mb-6">Hola! Soy Daniel Gomez</h1>
-            <p className="text-gray-700 text-base md:text-lg">Desarrollador Web Full Stack con base en Argentina.</p>
+            <h1 className="font-sans text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none max-w-lg mb-6">Hi, there! I'm Daniel Gomez</h1>
+            <p className="text-gray-700 text-base md:text-lg"> Full Stack developer based in Argentina.</p>
           </div> 
           <div className='flex items-center space-x-2'>
             <button className='bg-gray-800 m-2 p-2 rounded-sm border border-black' >
             <a href="#about" className="text-white hover:text-gray-300">
-                About
+                About Me
               </a>
             </button>
             <button className='bg-gray-800 m-2 p-2 rounded-sm border border-black text-white hover:text-gray-300'>
             <a href="#contact" className="text-white hover:text-gray-300">
-               Contact Me
-              </a>
+              Download DV
+            </a>
             </button>      
           </div>
         </div>        

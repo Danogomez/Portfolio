@@ -10,9 +10,9 @@ export const AboutMe = () => {
         <img className='w-96 rounded-lg border border-gray-800 shadow-md' src='/aboutdj.jpg' alt="" />      
       </div>
       <div className='w-full lg:w-1/2 flex flex-col justify-between p-2 py-8'>
-        <p className='text-base text-gray-400 md:text-lg'>Soy un joven profesional dedicado al desarrollo personal y profesional, con un fuerte enfoque en el trabajo en equipo.</p>
-        <p className='text-base text-gray-400 md:text-lg'>Mi experiencia previa en administración y logística durante más de 5 años me ha brindado habilidades sólidas en colaboración y adaptabilidad, las cuales aplico ahora en el mundo del desarrollo web.</p>
-        <p className='text-base text-gray-400 md:text-lg'>Mi pasión radica en construir soluciones robustas y eficientes en la parte trasera de aplicaciones. Aunque mi amor por la tecnología es evidente en mi trabajo, también siento una profunda pasión por la música y dedico mi tiempo libre a ser DJ, añadiendo un toque de creatividad y espontaneidad a mi vida.</p>
+        <p className='text-base text-gray-400 md:text-lg'>I am a young professional dedicated to personal and professional development, with a strong focus on teamwork.</p>
+        <p className='text-base text-gray-400 md:text-lg'>My previous experience in administration and logistics for over 5 years has provided me with solid skills in collaboration and adaptability, which I now apply in the world of web development.</p>
+        <p className='text-base text-gray-400 md:text-lg'>My passion lies in building robust and efficient solutions on the backend of applications. While my love for technology is evident in my work, I also have a deep passion for music and dedicate my free time to being a DJ, adding a touch of creativity and spontaneity to my life.</p>
       </div>
     </div>
     </div>
