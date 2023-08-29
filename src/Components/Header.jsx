@@ -17,8 +17,8 @@ export const Header = () => {
               </a>
             </button>
             <button className='bg-gray-800 m-2 p-2 rounded-sm border border-black text-white hover:text-gray-300'>
-            <a href="#contact" className="text-white hover:text-gray-300">
-              Download DV
+            <a href="/EnglishCVDaniel.pdf" download className="text-white hover:text-gray-300">
+            Download CV
             </a>
             </button>      
           </div>
