@@ -27,7 +27,7 @@ export const Certificates = () => {
         </div>
         <div className='card-skills' >
           <CertificateCard
-          title="EF Standard English Certificate 68/100"
+          title="EF Standard English Certificate (C1 advanced)"
           image="/certifIngles.png" // Replace with the actual image URL
           link="https://www.efset.org/cert/xdKP2t" // Replace with the actual certificate URL
           />
