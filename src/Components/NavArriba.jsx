@@ -2,7 +2,7 @@ import React from 'react'
 
 export const NavArriba = () => {
     return (
-      <div className='relative bg-gray-900 z-50'>
+      <div className='relative bg-gray-800 z-50'>
         <nav className="bg-gray-800 py-3 text-white">
           <ul className="flex space-x-4 justify-center">
             <li>
